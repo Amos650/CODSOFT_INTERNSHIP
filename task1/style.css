@@ -1,0 +1,121 @@
+body {
+    position: relative;
+    min-height: 550px;
+    max-width: 1980px;
+    padding: 16px 16px 100px;
+    align-items: center;
+    background-color: #002E33;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    height: auto;
+    width:100%;
+    padding: 10px;
+    overflow: visible;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+
+}
+
+.name {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #ffffffff;
+    background-color: transparent;
+}
+
+.navbar button {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    min-height: 28px;
+    padding: 5px 15px 5px 15px;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #A3DC2F;
+    border-radius: 100px;
+    border-color: transparent;
+
+}
+
+.navbar a {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    min-width: 8px;
+    min-height: 10px;
+    overflow: visible;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 400;
+    color: #ffffffff;
+    line-height: 26px;
+    background-color: transparent;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    max-width: 1200px;
+    padding-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    columns: 2;
+    column-gap: 50px;
+    background-color: transparent;
+}
+
+.heading p {
+    position: relative;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    overflow: visible;
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffffff;
+}
+
+.welcome img {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    min-height: 100%;
+    width: 350px;
+    object-fit: cover;
+}
+
+.welcome-t p {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    overflow: visible;
+    padding-bottom: 20px;
+    font-size: 4px;
+    font-weight: 300;
+    color: #ffffffff;
+
+}
