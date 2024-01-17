@@ -6,19 +6,26 @@ body {
 
 header {
     position: relative;
-    width: fit-content;
-    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: 550px;
     max-width: 1980px;
-    padding: 10px 30px 50px 30px;
+    padding: 16px 16px 100px 16px;
     align-items: center;
     background-color: #002E33;
     background-size: cover;
 }
 
 .navbar {
+    position: relative;
     display: flex;
+    flex-direction: row;
     height: auto;
     width:100%;
+    max-width: 1200px;
+    padding: 10px;
     overflow: hidden;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +34,7 @@ header {
 }
 
 .name {
+    position: relative;
     display: block;
     width: fit-content;
     height: fit-content;
@@ -36,6 +44,7 @@ header {
     font-weight: 700;
     line-height: 35px;
     background-color: transparent;
+    overflow: visible;
 }
 
 .navbar button, .welcome-b1, .welcome-b2{
