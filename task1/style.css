@@ -40,63 +40,29 @@ header {
     height: fit-content;
     min-width: 16px;
     min-height: 10px;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 35px;
     background-color: transparent;
     overflow: visible;
 }
 
-.navbar button, .welcome-b1, .welcome-b2{
+.navbar > button, .welcome-b1, .welcome-b2{
     position: relative;
+    display: block;
     width: fit-content;
     height: fit-content;
-    min-height: 28px;
-    padding: 5px 15px 5px 15px;
-    font-size: 10px;
+    min-height: 56px;
+    padding: 10px 30px 10px 30px;
+    font-size: 16px;
     font-weight: 600;
+    line-height: 26px;
     background-color: #A3DC2F;
     border-radius: 100px;
     border-color: transparent;
-
 }
 
-.navbar a {
-    position: relative;
-    width: fit-content;
-    height: fit-content;
-    min-width: 8px;
-    min-height: 10px;
-    overflow: visible;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 26px;
-    color: #ffffffff;
-    background-color: transparent;
-}
-
-.links {
-    display: flex;
-    justify-content: space-between;
-}
-
-.welcome {
-    position: relative;
-    display: flex;
-    width: 100%;
-    height: fit-content;
-    max-width: 1200px;
-    padding-top: 100px;
-    justify-content: space-between;
-    align-items: center;
-    columns: 2;
-    background-color: transparent;
-    color: #ffffffff;
-}
-
-.heading p {
+.navbar > a {
     position: relative;
     display: block;
     width: fit-content;
@@ -104,31 +70,86 @@ header {
     min-width: 16px;
     min-height: 10px;
     overflow: visible;
+    padding: 15px;
     text-decoration: none;
-    font-size: 30px;
-    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ffffffff;
+    background-color: transparent;
+}
+
+.links {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    z-index: 1500;
+    width: 100%;
+    height:auto;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: transparent;
+}
+
+.welcome {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    width: 100%;
+    height: fit-content;
+    max-width: 1200px;
+    padding-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    color: #ffffffff;
+}
+
+.heading > p {
+    position: relative;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    overflow: visible;
+    font-size: 60px;
+    line-height: 70px;
     font-weight: 700;
 }
 
 .welcome img {
     position: relative;
-    width: 370px;
-    height: 330px;
+    display: block;
+    width: 100%px;
+    height: 600px;
     min-height: 100%;
     object-fit: cover;
 }
 
 .welcome-t > p {
     position: relative;
-    width: 350px;
+    display:block;
+    width: fit-content;
     height: fit-content;
     min-width: 16px;
     min-height: 10px;
     overflow: visible;
     padding-bottom: 20px;
-    font-size: xx-small;
-    letter-spacing: 1.5px;
+    font-size: 18px;
+    line-height: 28px;
 
+}
+.welcome-b {
+    position: relative;
+    display:  flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: stretch;
+    column-gap: 10px;
 }
 
 .welcome-b2 {
@@ -140,13 +161,16 @@ header {
 .welcome-stat {
     position: relative;
     display: flex;
-    justify-content: flex-start !important;
+    flex-direction: row;
+    justify-content: flex-start;
     flex-direction: row;
     width: 100%;
     height: auto;
     overflow: visible;
-    padding-top: 50px;
+    padding-top: 100px;
     justify-content: space-between;
+    align-items: stretch;
+    column-gap: 50px;
 }
 
 .members, .trainers, .rating {
@@ -159,11 +183,32 @@ header {
     height: auto;
     max-width: 165px;
     overflow: visible;
+    background-color: transparent;
 
+}
+.welcome-n {
+    position: relative;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    min-height: 10px;
+    min-width: 16px;
+    padding-bottom: 10px;
+    font-size: 38px;
+    line-height: 48px;
 }
 
 .welcome-st {
-    font-size: 8px;
+    position: relative;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
 
 }
 
@@ -202,6 +247,7 @@ header {
     width: 100%;
     height: auto;
     max-width: 1232px;
+    padding: 100px 16px 100px 16px;
     background-color: transparent;
 }
 
