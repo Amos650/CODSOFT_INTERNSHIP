@@ -481,6 +481,18 @@ header {
     color: #707070;
 }
 
+.footer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 1980px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .contactUs {
     position: relative;
     display: flex;
