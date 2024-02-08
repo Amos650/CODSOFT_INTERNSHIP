@@ -627,3 +627,13 @@ form > div {
     font-weight: 400;
     color: #0000007f;
 }
+
+.line {
+    border-top: 1px solid black;
+    padding-top: 30px;
+    font-size: xx-small;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1232px;
+}
